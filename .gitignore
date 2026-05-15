@@ -1,0 +1,18 @@
+# Ignore environment secrets
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+
+# Streamlit runtime folder
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
