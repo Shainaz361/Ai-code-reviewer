@@ -1,8 +1,34 @@
-# Code Review Agent
+# 🔍 AI Code Review Agent
 
 A Streamlit app for AI-powered code review using the Groq API.
 
-## Setup (Local)
+## 🔗 **Live Demo**
+
+### **[➡️ VISIT AI CODE REVIEWER](https://ai-code-reviewer-hjrptfuvd6d26femm2z2g.streamlit.app)**
+
+Click the link above to use the app now!
+
+---
+
+## ✨ Features
+
+✅ **AI-powered code analysis** powered by Groq AI
+🔒 **Security vulnerability detection**
+🐛 **Bug identification and fixes**
+⚡ **Performance optimization tips**
+💾 **Review history tracking**
+📥 **Export reviews**
+💬 **Chat assistant for follow-up questions**
+
+---
+
+## 🎯 Supported Languages
+
+• Python • JavaScript • Java • C/C++ • Go • Rust • PHP • Ruby
+
+---
+
+## 🚀 Setup (Local)
 
 1. Create a Python virtual environment and activate it:
 
@@ -34,7 +60,9 @@ Then edit `.env` and replace `your_groq_api_key_here` with your real key.
 python -m streamlit run app.py
 ```
 
-## GitHub deployment
+---
+
+## 📦 GitHub Deployment
 
 1. Initialize the repository:
 
@@ -53,16 +81,67 @@ git branch -M main
 git push -u origin main
 ```
 
-## Keeping the API key secret
+---
+
+## 🔐 Keeping the API Key Secret
 
 - Never upload `.env`
 - Use `.env.example` for the repo instead
 - On Streamlit Cloud or other hosts, set `GROQ_API_KEY` as an environment secret, not in source code
 
-## Optional Streamlit Cloud deploy
+---
+
+## 🌐 Streamlit Cloud Deployment
 
 - Push your repo to GitHub
 - Create a new app on Streamlit Cloud
 - Set the main file to `app.py`
 - Add a secret named `GROQ_API_KEY`
 - Deploy
+
+---
+
+## 📚 How to Use
+
+1. **Paste your code** in the left box
+2. **Click "Analyze"** to get AI review
+3. **View improved code** on the right
+4. **Copy & use** the corrected code
+5. **Chat with AI** for follow-up questions
+
+---
+
+## 🛠️ Technologies Used
+
+- **Streamlit** - Web app framework
+- **Groq API** - AI-powered code analysis
+- **Python** - Backend
+- **Python-dotenv** - Environment variables
+
+---
+
+## 📝 License
+
+This project is open source and available for educational and commercial use.
+
+---
+
+## 👤 Author
+
+**Shainaz361**
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork and submit pull requests.
+
+---
+
+## 📞 Support
+
+For issues or questions, please open an GitHub issue or contact the author.
+
+---
+
+**Made with ❤️ using Groq AI**
