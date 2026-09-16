@@ -16,6 +16,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 # --------- RATE LIMITER ---------
 if "rate_limiter" not in st.session_state:
     st.session_state.rate_limiter = RateLimiter()
+    
 
 # --------- PAGE CONFIG ---------
 st.set_page_config(
