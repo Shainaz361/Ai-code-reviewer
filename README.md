@@ -2,11 +2,6 @@
 
 A Streamlit app for AI-powered code review using the Groq API.
 
-## 🔗 **Live Demo**
-
-### **[➡️ VISIT AI CODE REVIEWER](https://ai-code-reviewer-hjrptfuvd6d26femm2z2g.streamlit.app)**
-
-Click the link above to use the app now!
 
 ---
 
